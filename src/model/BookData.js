@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 //mongoose.connect("mongodb://localhost:27017/Library").then(()=>{console.log('Database Connected')});
-mongoose.connect(`mongodb+srv://soorej:Un6cp@cluster0.zy0kvtv.mongodb.net/test`)
+//mongoose.connect(`mongodb+srv://soorej:Un6cp@cluster0.zy0kvtv.mongodb.net/test`)
+mongoose.connect(`mongodb+srv://soorej:Un6cp@cluster0.zy0kvtv.mongodb.net/test`).then(()=>{console.log('Database Connected')});
 
 
 const Schema = mongoose.Schema;
