@@ -43,10 +43,10 @@ app.post('/insert', function (req, res) {
     res.header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE");
     console.log(req.body);
     var bookdetail = {
-        Code: req.body.Books.bookcode,
-        Name: req.body.Books.BookName,
-        BookAuthor: req.body.Books.Author,
-        BookISBNNo: req.body.Books.ISBNNO
+        BookCode: req.body.bookcode,
+        BookName: req.body.bookname,
+        BookAuthor: req.body.bookauthor,
+        BookISBNNo: req.body.bookisbnno
         
     }
     console.log("Hello");
